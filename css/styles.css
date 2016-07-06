@@ -28,7 +28,8 @@ body {
 
     height: auto;
     max-width: 100%;
-    position: relative;
+    text-align: center;
+
 
 }
 
@@ -283,9 +284,11 @@ body {
 #contact {
     background-color: #222;
     overflow: hidden;
-    height: auto;
+    width: 100%;
     max-width:100%;
     height: auto;
+    padding-left: 2.5em;
+    padding-right:2.5em;
 
 }
 
@@ -409,6 +412,8 @@ CONTACT SECTION MEDIA QUERIES
 
 @media screen and (max-width: 760px) {
     #contact {
+        max-width: 100%;
+        height: auto;
 
     }
 
