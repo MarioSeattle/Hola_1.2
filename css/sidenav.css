@@ -11,7 +11,7 @@
   /*width: 300px; */
   /*height: 240px;*/
   color: #e1ffff;
-  padding-bottom: 1em;
+  padding-bottom: 0.5em;
 }
 .nav-side-menu .brand {
   background-color: #23282e;
@@ -114,7 +114,7 @@
   .nav-side-menu {
     position: relative;
     width: 100%;
-    margin-bottom: 10px;
+
   }
   .nav-side-menu .toggle-btn {
     display: block;
