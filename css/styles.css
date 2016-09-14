@@ -1,68 +1,51 @@
+@charset "utf-8";
+/*
+Theme Name: Mario Seattle
+Description: SHS
+Version: 4.0
+Author: Mario Gomez
+Author URI:
+License:
+License URI:
+Text Domain: not assigned
+
+*/
+/*CSS RESETS
+body, body * {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}*/
 @import url(bootstrap.css);
 @import url(bootstrap-responsive.css);
 /*Contact form */
 @import url(http://fonts.googleapis.com/css?family=Oswald:400,700,300);
 
-
-
 html {
-    position: relative;
-    min-height: 100%;
-    padding-top: 0.5em;
-    overflow: auto;
-    height: auto;
-    max-width: 100%;
+    height: 100%;
+    font-size:16px;
+    box-sizing: border-box;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    background-color: #f8f8f8;
+    font-family: Helvetica, Arial, sans-serif;
 }
 body {
-    overflow-y:visible;
+    box-sizing: border-box;
+    background:#f8f8f8;;
+    font-size:100%;
+    line-height:1.5;
+    font-family: Helvetica, Arial, sans-serif;
 }
-
-.container {
-    height: auto;
-    max-width: 100%;
-    font-size: 20px;
-
-}
-
-.facebook {
-
-    height: auto;
-    max-width: 100%;
-    text-align: center;
-
-
-}
-
-
-
-.text h2 h3 {
-
-    font-size: 20px;
-    font-weight: 600;
-
-}
-
-.text p {
-
-    font-size: 25px;
-    font-weight: 300;
-
-}
-
-
-/*Carousel CSS */
-
-/**
- * Slider
- */
+/*Carousel CSS *//*** Slider*/
 #img-carousel {
-
+    text-align: center;
     max-width:100%;
     height: auto;
 }
-
 .carousel-inner .item {
-    max-height: 340px;
+    max-height: 440px;
+
 }
 .carousel-inner .item:after {
     content: auto;
@@ -73,11 +56,9 @@ body {
     top: 0;
     left: 0;
 }
-
 .carousel-control {
-    width: 10%;
+    width: 5    %;
 }
-
 .carousel-control .fa {
     position: absolute;
     top: 50%;
@@ -88,7 +69,6 @@ body {
     right: 50%;
     margin-right: -10px;
 }
-
 @media screen and (min-width: 768px) {
     .carousel-control .fa {
         width: 30px;
@@ -102,9 +82,7 @@ body {
         margin-left: -15px;
     }
 }
-/**
- * Slider caption
- */
+/*** Slider caption*/
 .carousel-caption h2 {
     color: #fff;
     font-size: 25px;
@@ -122,10 +100,7 @@ body {
         bottom: 20%;
     }
 }
-
-/**
- * Button
- */
+/*** Button*/
 .btn-transparent {
     background: transparent;
     color: #fff;
@@ -134,7 +109,6 @@ body {
 .btn-transparent:hover {
     background-color: #fff;
 }
-
 .btn-rounded {
     border-radius: 70px;
 }
@@ -143,26 +117,37 @@ body {
     padding: 11px 45px;
     font-size: 18px;
 }
-
-/**
- * Change animation duration
- */
+/** * Change animation duration*/
 .animated {
     -webkit-animation-duration: 1.5s;
     animation-duration: 1.5s;
-}
-/*Carousel CSS */
-
-/*logo CSS */
+}/*Carousel CSS */
+/*Logo*/
 .logo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width:100%;
+    text-align: center;
+    max-width: 100%;
     height: auto;
+    padding-bottom: 30px
 }
-/*logo CSS */
-
+/*Logo*/
+.container {
+    height: auto;
+    max-width: 100%;
+    font-size: 20px;
+}
+.facebook {
+    height: auto;
+    max-width: 100%;
+    text-align: center;
+}
+.text h2 h3 {
+    font-size: 20px;
+    font-weight: 600;
+}
+.text p {
+    font-size: 25px;
+    font-weight: 300;
+}
 /*Services CSS */
 .feature{
     width: 100%;
@@ -268,9 +253,7 @@ body {
     }
 }
 /*Services CSS */
-
 /* Contact Form */
-
 /* FOR ALL HEADERS */
 .section-header {
     text-align: center;
@@ -280,7 +263,6 @@ body {
     color: #ddd;
     margin-bottom: 25px;
 }
-
 #contact {
     background-color: #222;
     overflow: hidden;
@@ -291,20 +273,16 @@ body {
     padding-right:2.5em;
 
 }
-
 .contact-header {
     color: #eee;
 }
-
 .contact-wrapper {
     margin: 0 auto;
     padding-top: 15px;
     position: relative;
     max-width:100%;
     height: auto;
-
 }
-
 /*********************
   CONTACT PAGE LEFT
 *********************/
@@ -319,58 +297,45 @@ body {
     background-color: #222;
     color: #fff;
 }
-
 .send-button {
     margin-top: 15px;
     width: 400px;
 }
-
 /**********************
   CONTACT PAGE RIGHT
 **********************/
-
 .direct-contact-container {
     max-width: 400px;
     float: right;
     margin-top: 5px;
-
 }
-
 .contact-list {
     list-style-type: none;
     margin-left: -30px;
     padding-right: 20px;
 }
-
 .list-item {
     line-height: 4;
     color: #aaa;
 }
-
 .contact-text {
     font: 300 20px 'Lato', sans-serif;
-
     color: #bbb;
 }
-
 .place {
     margin-left: 62px;
 }
-
 .phone {
     margin-left: 56px;
 }
-
 .gmail {
     margin-left: 53px;
 }
-
 .contact-text a {
     color: #bbb;
     text-decoration: none;
     padding-left: 10px;
 }
-
 .contact-text a:hover {
     color: #fff;
     text-decoration: none;
@@ -379,20 +344,16 @@ body {
     -moz-transition-duration: 0.2s;
     -o-transition-duration: 0.2s;
 }
-
 .social-media-icons-list {
     text-align: center;
     margin-left: -50px;
 }
-
 .social-media-icons-list li {
     display: inline-block;
     margin: -5px 5px;
     filter: grayscale(30%);
     -webkit-filter: grayscale(30%);
-
 }
-
 .social-media-icon img:hover {
     -moz-transform: scale(1.2);
     -webkit-transform: scale(1.2);
@@ -405,61 +366,47 @@ body {
     -o-transition: all .1s ease-in-out;
     transition: all .1s ease-in-out;
 }
-
 /****************************
 CONTACT SECTION MEDIA QUERIES
 ****************************/
-
 @media screen and (max-width: 760px) {
     #contact {
         max-width: 100%;
         height: auto;
-
     }
-
     .section-header {
         font-size: 45px;
     }
-
     .direct-contact-container, .form-horizontal {
         float: none;
         margin: 0 auto;
     }
-
     .name, .email, textarea, button {
         max-width: 370px;
     }
-
     .direct-contact-container {
         margin-top: 60px;
         max-width: 300px;
     }
 }
-
 @media screen and (max-width: 690px) {
     #contact {
         height: 900px;
     }
-
     .direct-contact-container, .form-wrapper {
         float: none;
         margin: 0 auto;
     }
-
     .name, .email, textarea {
         max-width: 280px;
     }
-
     .direct-contact-container {
         margin-top: 60px;
         max-width: 280px;
     }
-
     .contact-text {
         font-size: 15px;
     }
-
-
     .social-media-icons-list li {
         margin: 5px 0px;
     }
@@ -470,11 +417,7 @@ CONTACT SECTION MEDIA QUERIES
         width: 99%;
     }
 }
-
 /*contact form*/
-
-
-
 .footer-bottom {
     border-top: 1px solid #DDDDDD;
     padding-top: 10px;
