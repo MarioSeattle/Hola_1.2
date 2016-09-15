@@ -9,7 +9,7 @@
             <div class="menu-list">
                 <ul id="menu-content" class="menu-content collapse out">
                     <li>
-                        <a href="http://www.seattletoursinspanish.com/index.php">
+                        <a href="http://www.seattletoursinspanish.com/">
                             <i class="glyphicon glyphicon-home"></i> Inicio
                         </a>
                     </li>

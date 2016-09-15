@@ -9,7 +9,7 @@
             <div class="menu-list">
                 <ul id="menu-content" class="menu-content collapse out">
                     <li>
-                        <a href="http://www.seattletoursinspanish.com/index.php">
+                        <a href="http://www.seattletoursinspanish.com/">
                             <i class="glyphicon glyphicon-home"></i> Inicio
                         </a>
                     </li>
@@ -45,7 +45,7 @@
     <!-- Logo starts here-->
     <div id="logo">
         <div class="col-lg-10">
-            <div class="logo"><img class="logo" src="images/Hola_Seattle_Logo.png" /></div>
+            <div class="logo"><img class="logo" src="../images/Hola_Seattle_Logo.png" /></div>
         </div><!-- Logo ends here-->
     </div><!-- Logo ends here-->
 

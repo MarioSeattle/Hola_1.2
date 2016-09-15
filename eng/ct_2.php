@@ -9,30 +9,30 @@
             <div class="menu-list">
                 <ul id="menu-content" class="menu-content collapse out">
                     <li>
-                        <a href="http://www.seattletoursinspanish.com/index.php">
+                        <a href="http://www.seattletoursinspanish.com/">
                             <i class="glyphicon glyphicon-home"></i> Home
                         </a>
                     </li>
                     <li>
-                        <a href="http://www.seattletoursinspanish.com/spa/guias.php">
+                        <a href="http://www.seattletoursinspanish.com/eng/guides.php">
                             <i class="glyphicon glyphicon-user"></i> Guides
                         </a>
                     </li>
 
                     <li>
-                        <a href="http://www.seattletoursinspanish.com/spa/ct_2.php">
+                        <a href="http://www.seattletoursinspanish.com/eng/ct_2.php">
                             <i class="glyphicon glyphicon-bed"></i> City Tour 2H
                         </a>
                     </li>
 
                     <li>
-                        <a href="http://www.seattletoursinspanish.com/spa/ct_3.php">
+                        <a href="http://www.seattletoursinspanish.com/eng/ct_3.php">
                             <i class="glyphicon glyphicon-bed"></i> City Tour 3H
                         </a>
                     </li>
 
                     <li>
-                        <a href="http://www.seattletoursinspanish.com/spa/">
+                        <a href="http://www.seattletoursinspanish.com/eng/">
                             <i class="glyphicon glyphicon-bed"></i> Transporte
                         </a>
                     </li>
@@ -42,12 +42,11 @@
             </div>
         </div>
     </div><!-- side menu ends here-->
-    <!-- Logo starts here-->
-
-    <div id="logo">
-        <div class="logo"><img class="logo" src="../images/Hola_Seattle_Logo.png"/></div>
-    </div><!-- Logo ends here-->
-    </div><!-- Logo ends here-->
+    <!--Logo Banner-->
+    <header role="banner">
+        <img id="logo-main" src="../images/Hola_Seattle_Logo.png" width="400" alt="Logo Principal">
+    </header><!-- header role="banner" -->
+    </div><!-- ends here-->
     <div class="container">
 
         <footer class="row">
