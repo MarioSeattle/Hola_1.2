@@ -112,7 +112,6 @@ body {
 .btn-rounded {
     border-radius: 70px;
 }
-
 .btn-large {
     padding: 11px 45px;
     font-size: 18px;
@@ -128,11 +127,115 @@ body {
     max-width: 100%;
     height: auto;
     padding-bottom: 30px
+}/*End Logo*/
+/*Bio*/
+#bio {
+    max-width: 100%;
+    height: auto;
+} /*end bio*/
+
+#logo-main {
+    display: block;
+    margin: 5px auto;
+    width: 50%;
 }
-/*Logo*/
+/*CSS Typer*/
+@keyframes cursor {
+    from, to {
+        border-color: transparent;
+    }
+    50% {
+        border-color: black;
+    }
+}
+@keyframes typing {
+    from {
+        width: 100%;
+    }
+    90%, to {
+        width: 0;
+    }
+}
+@keyframes slide {
+    33.33333% {
+        font-size: 2rem;
+        letter-spacing: 2px;
+    }
+    to {
+        font-size: 0;
+        letter-spacing: 0;
+    }
+}
+.typing-slider {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+    margin-bottom: 20px;
+}
+
+.typing-slider p {
+    position: relative;
+    display: inline;
+    font-size: 0;
+    text-transform: uppercase;
+    letter-spacing: 0;
+    animation: slide 15s step-start infinite;
+}
+.typing-slider p::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    border-left: 3px solid black;
+    background-color: #f8f8f8;
+    animation: typing 5s infinite, cursor 1s infinite;
+}
+.typing-slider p:nth-child(1) {
+    animation-delay: 0s;
+}
+.typing-slider p:nth-child(1)::after {
+    animation-delay: 0s;
+    animation-timing-function: steps(16), step-end;
+}
+.typing-slider p:nth-child(2) {
+    animation-delay: 5s;
+}
+.typing-slider p:nth-child(2)::after {
+    animation-delay: 5s;
+    animation-timing-function: steps(23), step-end;
+}
+.typing-slider p:nth-child(3) {
+    animation-delay: 10s;
+}
+.typing-slider p:nth-child(3)::after {
+    animation-delay: 10s;
+    animation-timing-function: steps(12), step-end;
+}
+/*CSS flags*/
+#eng_left {
+    float: left;
+    width: 45%;
+}
+#spa_right {
+    float: right;
+    width: 45%;
+}
+.img_es {
+    float: left;
+    width: 90%;
+    padding-bottom: 2em;
+}
+.img_us {
+    float: right;
+    width: 90%;
+    padding-bottom: 2em;
+}/*end flags*/
+
+/*Facebook*/
 .container {
     height: auto;
-    max-width: 100%;
     font-size: 20px;
 }
 .facebook {
@@ -147,7 +250,7 @@ body {
 .text p {
     font-size: 25px;
     font-weight: 300;
-}
+}/*End Facebook*/
 /*Services CSS */
 .feature{
     width: 100%;
@@ -251,10 +354,8 @@ body {
     .feature-main{
         margin-bottom: 15px;
     }
-}
-/*Services CSS */
-/* Contact Form */
-/* FOR ALL HEADERS */
+}/*End Services CSS */
+/* Contact Form *//* FOR ALL HEADERS */
 .section-header {
     text-align: center;
     margin: 0 auto;
@@ -271,7 +372,6 @@ body {
     height: auto;
     padding-left: 2.5em;
     padding-right:2.5em;
-
 }
 .contact-header {
     color: #eee;
@@ -286,12 +386,10 @@ body {
 /*********************
   CONTACT PAGE LEFT
 *********************/
-
 .form-horizontal {
     float: left;
     max-width: 400px;
 }
-
 .form-control, textarea {
     max-width: 400px;
     background-color: #222;
@@ -411,13 +509,12 @@ CONTACT SECTION MEDIA QUERIES
         margin: 5px 0px;
     }
 }
-
 @media screen and (max-width: 410px) {
     .send-button {
         width: 99%;
     }
-}
-/*contact form*/
+}/*End contact form*/
+/*Footer starts here*/
 .footer-bottom {
     border-top: 1px solid #DDDDDD;
     padding-top: 10px;
@@ -428,4 +525,6 @@ CONTACT SECTION MEDIA QUERIES
 }
 .payments {
     font-size: 2.5em;
-}
+    padding-right: 1em;
+}/*Footer starts here*/
+
