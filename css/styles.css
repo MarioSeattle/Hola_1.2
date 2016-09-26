@@ -1,14 +1,13 @@
 @charset "utf-8";
 /*
-Theme Name: Mario Seattle
-Description: SHS
+Theme Name: Hola Seattle
+Description: Seattle's best spanish speaking comany since 2014.
 Version: 4.0
 Author: Mario Gomez
 Author URI:
 License:
 License URI:
 Text Domain: not assigned
-
 */
 /*CSS RESETS
 body, body * {
@@ -23,6 +22,7 @@ body, body * {
 
 html {
     height: 100%;
+    width: auto;
     font-size:16px;
     box-sizing: border-box;
     -ms-text-size-adjust: 100%;
@@ -31,6 +31,8 @@ html {
     font-family: Helvetica, Arial, sans-serif;
 }
 body {
+    height: 100%;
+    width: auto;
     box-sizing: border-box;
     background:#f8f8f8;;
     font-size:100%;
@@ -232,16 +234,19 @@ body {
     width: 90%;
     padding-bottom: 2em;
 }/*end flags*/
+/*Bio*/
 
 /*Facebook*/
 .container {
     height: auto;
     font-size: 20px;
+
 }
 .facebook {
     height: auto;
     max-width: 100%;
     text-align: center;
+
 }
 .text h2 h3 {
     font-size: 20px;
@@ -359,7 +364,6 @@ body {
 .section-header {
     text-align: center;
     margin: 0 auto;
-    margin-bottom: 50px;
     font: small-caps 300 85px 'Lato', sans-serif;
     color: #ddd;
     margin-bottom: 25px;

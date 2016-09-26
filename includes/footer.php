@@ -44,9 +44,9 @@
         </div>
     </section> <!--Social and contact form ends here-->
 </div><!--End of div class="col-md-12" -->
-<div class="col-md-12">   <!-- starts col-md-12 here-->
+<div class="col-lg-12">   <!-- starts col-md-12 here-->
     <div class="footer-bottom">
-        <div class="container">
+        <!--<div class="container">-->
             <p class="pull-left"> The contents appearing on this website are the property of Seattle Hospitality
                 Solutions LLC Copyright© since 2015. Design By <a href="https://www.linkedin.com/in/mario-gomez-1a48aa2b">Mario Gomez</a><br> <a href="../index.html">Inicio</a> | <a href="https://www.facebook.com/340262489495852/">Facebook</a> |
                 <a href="">Contactanos</a>
@@ -57,7 +57,7 @@
                 <li><i class="fa fa-cc-amex"></i></li>
                 <li><i class="fa fa-cc-paypal"></i></li>
             </ul>
-        </div>
+        <!--</div>-->
     </div>
 </div> <!-- end col-md-12 here-->
 <!-- Javascript================================= -->

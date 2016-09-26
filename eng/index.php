@@ -1,47 +1,8 @@
 <?php include("../includes/header.php");?>
 <body>
 <div class="col-lg-12">
-    <!-- Side Menu starts here -->
-    <div class="col-lg-2">
-        <div class="nav-side-menu">
-            <div class="brand">Hola Seattle</div>
-            <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content"></i>
-            <div class="menu-list">
-                <ul id="menu-content" class="menu-content collapse out">
-                    <li>
-                        <a href="http://www.seattletoursinspanish.com/">
-                            <i class="glyphicon glyphicon-home"></i> Home
-                        </a>
-                    </li>
-                    <li>
-                        <a href="http://www.seattletoursinspanish.com/eng/guides.php">
-                            <i class="glyphicon glyphicon-user"></i> Staff
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="http://www.seattletoursinspanish.com/eng/ct_2.php">
-                            <i class="glyphicon glyphicon-bed"></i> City Tour 2H
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="http://www.seattletoursinspanish.com/eng/ct_3.php">
-                            <i class="glyphicon glyphicon-bed"></i> City Tour 3H
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="http://www.seattletoursinspanish.com/eng/">
-                            <i class="glyphicon glyphicon-bed"></i> others
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div><!-- side menu ends here-->
+    <?php include("../includes/menu.php");?>
     <!-- Logo starts here-->
-
     <div id="logo">
         <div class="logo"><img class="logo" src="../images/Hola_Seattle_Logo.png"/></div>
     </div><!-- Logo ends here-->
@@ -49,7 +10,7 @@
 <!-- Services starts here-->
 <div class="col-md-12">
     <div class="feature"> <!-- feature begings-->
-        <div class="container">
+        <!--<div class="container">-->
             <div class="row">
                 <div class="heading">
                     <h2>Tours 2016</h2>
@@ -81,7 +42,7 @@
                             <h3>3 Hour City Tour</h3>
                             <p>We are pioneers of Seattle, offering services in Spanish since 2007. Let us show you our city in a private tour that is customized
                                 to your interests. For reviews from our clients, look for us on Facebook @holaseattle!</p>
-                            <a href="http://www.seattletoursinspanish.com/ct_3.php">More info<i class="fa fa-angle-double-right"></i></a>
+                            <a href="http://www.seattletoursinspanish.com/eng/ct_3.php">More info<i class="fa fa-angle-double-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -100,7 +61,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        <!--</div>-->
     </div> <!-- feature ends-->
 </div>  <!-- Services end here-->
 <div class="facebook"><!-- Facebook starts here-->

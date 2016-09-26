@@ -1,47 +1,7 @@
  <?php include("../includes/header.php");?>
         <body>
         <div class="col-lg-12">
-            <!-- Side Menu starts here -->
-            <div class="col-lg-2">
-                <div class="nav-side-menu">
-                    <div class="brand">Hola Seattle</div>
-                    <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content"></i>
-                    <div class="menu-list">
-                        <ul id="menu-content" class="menu-content collapse out">
-                            <li>
-                                <a href="http://www.seattletoursinspanish.com/">
-                                    <i class="glyphicon glyphicon-home"></i> Inicio
-                                </a>
-                            </li>
-                            <li>
-                                <a href="http://www.seattletoursinspanish.com/spa/guias.php">
-                                    <i class="glyphicon glyphicon-user"></i> Guias
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="http://www.seattletoursinspanish.com/spa/ct_2.php">
-                                    <i class="glyphicon glyphicon-bed"></i> City Tour 2H
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="http://www.seattletoursinspanish.com/spa/ct_3.php">
-                                    <i class="glyphicon glyphicon-bed"></i> City Tour 3H
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="http://www.seattletoursinspanish.com/spa/">
-                                    <i class="glyphicon glyphicon-bed"></i> Transporte
-                                </a>
-                            </li>
-
-
-                        </ul>
-                    </div>
-                </div>
-            </div><!-- side menu ends here-->
+            <?php include("../includes/menu_spa.php");?>
             <!-- Logo starts here-->
             <div id="logo">
                 <div class="col-lg-10">
@@ -51,16 +11,55 @@
 
             <!-- Bio starts here-->
             <div id="bio">
+
                 <div class="col-lg-12">
                     <h1 class="text-center">Mario Gomez</h1>
                     <h2 class="text-center">Costa Rica - USA</h2>
                     <h4 class="text-center"><em>"Emprendedor, Desarollador Web, Viajero, Estudiante entre otors"</em></h4>
 
+                    <div id="carousel-example" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel-example" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-example" data-slide-to="1"></li>
+                            <li data-target="#carousel-example" data-slide-to="2"></li>
+                        </ol>
 
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <a href="#"><img src="https://images.studentuniverse.com/new/suwebui/photos/top/SEA.jpg" /></a>
+                                <div class="carousel-caption">
+                                    <h3></h3>
+                                    <p></p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <a href="#"><img src="https://c1.staticflickr.com/1/460/18585219214_7b77b669a6_h.jpg" /></a>
+                                <div class="carousel-caption">
+                                    <h3></h3>
+                                    <p></p>
+                                </div>
+                            </div>
+                           <div class="item">
+                                <a href="#"><img src="http://postindustrialdesigner.com/wp-content/uploads/2013/08/130808-01-Seattle-Waterfront.jpg" /></a>
+                                <div class="carousel-caption">
+                                    <h3></h3>
+                                    <p></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <a class="left carousel-control" href="#carousel-example" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                        </a>
+                        <a class="right carousel-control" href="#carousel-example" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                        </a>
+                    </div>
 
 
                 </div>
-                <div class="col-sm-12">
+
+                <div class="col-lg-12">
                     <div class="text">
                         <h2 class="text-center">Pionero en turismo Hispano!</h2>
                         <h4 class="text-center"><stong>Guia local en Seattle desde 2007</stong></h4>
