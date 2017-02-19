@@ -42,21 +42,21 @@
                             <h3>3 Hour City Tour</h3>
                             <p>We are pioneers of Seattle, offering services in Spanish since 2007. Let us show you our city in a private tour that is customized
                                 to your interests. For reviews from our clients, look for us on Facebook @holaseattle!</p>
-                            <a href="http://www.seattletoursinspanish.com/eng/ct_3.php">More info<i class="fa fa-angle-double-right"></i></a>
+                            <a href="http://www.holaseattle.com/eng/ct_3.php">More info<i class="fa fa-angle-double-right"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 col-xs-12 col-sm-4 col-lg-4">
                     <div class="feature-main">
                         <div class="feature-box">
-                            <img src="http://www.seattletoursinspanish.com/images/top_needle_large.jpg" class="img-responsive" alt="Torre space Needle">
+                            <img src="http://www.holaseattle.com/images/top_needle_large.jpg" class="img-responsive" alt="Torre space Needle">
                             <div class="cover"></div>
                         </div>
                         <div class="feature-head">
                             <h3>Private Trasnportation</h3>
-                            <p>Do you need private transportation in Seattle? We can <p></p>rovide transportation for your group no matter the size to ensure that your trip is a success.
+                            <p>Do you need private transportation in Seattle? We can provide transportation for your group no matter the size to ensure that your trip is a success.
                                 We offer safe rides at good prices. For reviews from our clients, look for us on Facebook @holaseattle!</p>
-                            <a href="http://www.seattletoursinspanish.com/eng/">More info<i class="fa fa-angle-double-right"></i></a>
+                            <a href="http://www.holaseattle.com/eng/">More info<i class="fa fa-angle-double-right"></i></a>
                         </div>
                     </div>
                 </div>

@@ -12,13 +12,16 @@
     </div>
     <!-- languages -->
     <div id="eng_left">
-        <a href="http://www.seattletoursinspanish.com/eng/index.php">
+        <a href="http://www.holaseattle.com/eng/index.php">
             <img class="img_us" src="images/us.svg" alt="Bandera Britanica"/>
+           <!-- <h2>English</h2> -->
         </a>
     </div>
     <div id="spa_right">
-        <a href="http://www.seattletoursinspanish.com/spa/index.php">
+        <a href="http://www.holaseattle.com/spa/index.php">
             <img class="img_es" src="images/es.svg" alt="Bandera Espanola"/>
+           <!-- <h2>Espa&ntilde;ol</h2>-->
+
         </a>
     </div>
 
