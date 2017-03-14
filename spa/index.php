@@ -43,14 +43,14 @@
                             <p>Somos Piooneros Seattle ofreciendo servicios en Espa&ntilde;ol desde el 2007. Dejanos mostrarte
                                 nuestra ciudad de una forma privada y relevante a los intereses del grupo. Para comentarios de nuestros clientes
                                 buscanos en Facebook!</p>
-                            <a href="http://www.seattletoursinspanish.com/spa/ct_3.php">Para mas info click<i class="fa fa-angle-double-right"></i></a>
+                            <a href="http://www.holaseattle.com/spa/ct_3.php">Para mas info click<i class="fa fa-angle-double-right"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 col-xs-12 col-sm-4 col-lg-4">
                     <div class="feature-main">
                         <div class="feature-box">
-                            <img src="http://www.seattletoursinspanish.com/images/top_needle_large.jpg" class="img-responsive" alt="Torre space Needle">
+                            <img src="http://www.holaseattle.com/images/top_needle_large.jpg" class="img-responsive" alt="Torre space Needle">
                             <div class="cover"></div>
                         </div>
                         <div class="feature-head">
@@ -58,7 +58,7 @@
                             <p>Necesitas trasnporte privado en Seattle ? Contamos con todos los seguros y una flotilla lista para hacer
                                 que tu viaje sea todo un exito. Ofrecemos muy buenas tarifas, para comentarios de nuestros clientes
                                 buscanos en Facebook!</p>
-                            <a href="http://www.seattletoursinspanish.com/spa/">Para mas info click<i class="fa fa-angle-double-right"></i></a>
+                            <a href="http://www.holaseattle.com/spa/">Para mas info click<i class="fa fa-angle-double-right"></i></a>
                         </div>
                     </div>
                 </div>

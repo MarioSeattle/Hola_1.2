@@ -13,7 +13,7 @@
     <!-- languages -->
     <div id="eng_left">
         <a href="http://www.holaseattle.com/eng/index.php">
-            <img class="img_us" src="images/us.svg" alt="Bandera Britanica"/>
+            <img class="img_us"  src="images/us.svg" alt="Bandera Britanica"/>
            <!-- <h2>English</h2> -->
         </a>
     </div>

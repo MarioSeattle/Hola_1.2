@@ -22,7 +22,7 @@
 
                 <div class="media">
                     <div class="media-middle">
-                        <img class="img-responsive img-rounded" src="http://www.seattletoursinspanish.com/images/kerry_purple_large.jpg" alt="Vista Panoramica Kerry Park Seattle">
+                        <img class="img-responsive img-rounded" src="http://www.holaseattle.com/images/kerry_purple_large.jpg" alt="Vista Panoramica Kerry Park Seattle">
                     </div>
                 </div>
 

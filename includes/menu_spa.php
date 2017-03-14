@@ -6,24 +6,24 @@
         <div class="menu-list">
             <ul id="menu-content" class="menu-content collapse out">
                 <li>
-                    <a href="http://www.seattletoursinspanish.com/">
+                    <a href="http://www.holaseattle.com/">
                         <i class="glyphicon glyphicon-home"></i> Inicio
                     </a>
                 </li>
                 <li>
-                    <a href="http://www.seattletoursinspanish.com/spa/guias.php">
+                    <a href="http://www.holaseattle.com/spa/guias.php">
                         <i class="glyphicon glyphicon-user"></i> Guias
                     </a>
                 </li>
 
                 <li>
-                    <a href="http://www.seattletoursinspanish.com/spa/ct_2.php">
+                    <a href="http://www.holaseattle.com/spa/ct_2.php">
                         <i class="glyphicon glyphicon-bed"></i> City Tour 2H
                     </a>
                 </li>
 
                 <li>
-                    <a href="http://www.seattletoursinspanish.com/spa/ct_3.php">
+                    <a href="http://www.holaseattle.com/spa/ct_3.php">
                         <i class="glyphicon glyphicon-bed"></i> City Tour 3H
                     </a>
                 </li>

@@ -21,21 +21,21 @@
                     <div class="feature-main">
                         <div class="feature-box">
 
-                            <img src="http://www.seattletoursinspanish.com/images/glass_large.jpg" alt="Seattle tours en Spanish">
+                            <img src="http://www.holaseattle.com/images/glass_large.jpg" alt="Seattle tours en Spanish">
                             <div class="cover"></div>
                         </div>
                         <div class="feature-head">
                             <h3>2 Hour City Tour Seattle</h3>
                             <p>Let us show Seattle and it's suroundings areas in a private tour customized to your interest and local events.
                             </p>
-                            <a href="http://www.seattletoursinspanish.com/eng/ct_2.php">More info<i class="fa fa-angle-double-right"></i></a>
+                            <a href="http://www.holaseattle.com/eng/ct_2.php">More info<i class="fa fa-angle-double-right"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 col-xs-12 col-sm-4 col-lg-4">
                     <div class="feature-main">
                         <div class="feature-box">
-                            <img src="http://www.seattletoursinspanish.com/images/market_large.jpg" class="img-responsive" alt="Mercado Pike Place">
+                            <img src="http://www.holaseattle.com/images/market_large.jpg" class="img-responsive" alt="Mercado Pike Place">
                             <div class="cover"></div>
                         </div>
                         <div class="feature-head">
